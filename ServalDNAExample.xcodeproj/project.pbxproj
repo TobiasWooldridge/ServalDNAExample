@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A09829D18F0BB9700C4652C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A09829C18F0BB9700C4652C /* Foundation.framework */; };
+		1A09829F18F0BB9700C4652C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A09829E18F0BB9700C4652C /* CoreGraphics.framework */; };
+		1A0982A118F0BB9700C4652C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0982A018F0BB9700C4652C /* UIKit.framework */; };
+		1A0982A718F0BB9700C4652C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0982A518F0BB9700C4652C /* InfoPlist.strings */; };
+		1A0982A918F0BB9700C4652C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0982A818F0BB9700C4652C /* main.m */; };
+		1A0982AD18F0BB9700C4652C /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0982AC18F0BB9700C4652C /* SPAppDelegate.m */; };
+		1A0982B018F0BB9700C4652C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0982AE18F0BB9700C4652C /* Main.storyboard */; };
+		1A0982B318F0BB9700C4652C /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0982B218F0BB9700C4652C /* SPViewController.m */; };
+		1A0982B518F0BB9700C4652C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0982B418F0BB9700C4652C /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A09829918F0BB9700C4652C /* ServalDNAExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServalDNAExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A09829C18F0BB9700C4652C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A09829E18F0BB9700C4652C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A0982A018F0BB9700C4652C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A0982A418F0BB9700C4652C /* ServalDNAExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServalDNAExample-Info.plist"; sourceTree = "<group>"; };
+		1A0982A618F0BB9700C4652C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A0982A818F0BB9700C4652C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A0982AA18F0BB9700C4652C /* ServalDNAExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServalDNAExample-Prefix.pch"; sourceTree = "<group>"; };
+		1A0982AB18F0BB9700C4652C /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		1A0982AC18F0BB9700C4652C /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		1A0982AF18F0BB9700C4652C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A0982B118F0BB9700C4652C /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		1A0982B218F0BB9700C4652C /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		1A0982B418F0BB9700C4652C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A0982BB18F0BB9700C4652C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A09829618F0BB9700C4652C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A09829F18F0BB9700C4652C /* CoreGraphics.framework in Frameworks */,
+				1A0982A118F0BB9700C4652C /* UIKit.framework in Frameworks */,
+				1A09829D18F0BB9700C4652C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A09829018F0BB9700C4652C = {
+			isa = PBXGroup;
+			children = (
+				1A0982A218F0BB9700C4652C /* ServalDNAExample */,
+				1A09829B18F0BB9700C4652C /* Frameworks */,
+				1A09829A18F0BB9700C4652C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A09829A18F0BB9700C4652C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A09829918F0BB9700C4652C /* ServalDNAExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A09829B18F0BB9700C4652C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A09829C18F0BB9700C4652C /* Foundation.framework */,
+				1A09829E18F0BB9700C4652C /* CoreGraphics.framework */,
+				1A0982A018F0BB9700C4652C /* UIKit.framework */,
+				1A0982BB18F0BB9700C4652C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A0982A218F0BB9700C4652C /* ServalDNAExample */ = {
+			isa = PBXGroup;
+			children = (
+				1A0982AB18F0BB9700C4652C /* SPAppDelegate.h */,
+				1A0982AC18F0BB9700C4652C /* SPAppDelegate.m */,
+				1A0982AE18F0BB9700C4652C /* Main.storyboard */,
+				1A0982B118F0BB9700C4652C /* SPViewController.h */,
+				1A0982B218F0BB9700C4652C /* SPViewController.m */,
+				1A0982B418F0BB9700C4652C /* Images.xcassets */,
+				1A0982A318F0BB9700C4652C /* Supporting Files */,
+			);
+			path = ServalDNAExample;
+			sourceTree = "<group>";
+		};
+		1A0982A318F0BB9700C4652C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0982A418F0BB9700C4652C /* ServalDNAExample-Info.plist */,
+				1A0982A518F0BB9700C4652C /* InfoPlist.strings */,
+				1A0982A818F0BB9700C4652C /* main.m */,
+				1A0982AA18F0BB9700C4652C /* ServalDNAExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A09829818F0BB9700C4652C /* ServalDNAExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0982CB18F0BB9700C4652C /* Build configuration list for PBXNativeTarget "ServalDNAExample" */;
+			buildPhases = (
+				1A09829518F0BB9700C4652C /* Sources */,
+				1A09829618F0BB9700C4652C /* Frameworks */,
+				1A09829718F0BB9700C4652C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServalDNAExample;
+			productName = ServalDNAExample;
+			productReference = 1A09829918F0BB9700C4652C /* ServalDNAExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A09829118F0BB9700C4652C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "The Serval Project";
+			};
+			buildConfigurationList = 1A09829418F0BB9700C4652C /* Build configuration list for PBXProject "ServalDNAExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A09829018F0BB9700C4652C;
+			productRefGroup = 1A09829A18F0BB9700C4652C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A09829818F0BB9700C4652C /* ServalDNAExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A09829718F0BB9700C4652C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0982B518F0BB9700C4652C /* Images.xcassets in Resources */,
+				1A0982A718F0BB9700C4652C /* InfoPlist.strings in Resources */,
+				1A0982B018F0BB9700C4652C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A09829518F0BB9700C4652C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0982A918F0BB9700C4652C /* main.m in Sources */,
+				1A0982B318F0BB9700C4652C /* SPViewController.m in Sources */,
+				1A0982AD18F0BB9700C4652C /* SPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A0982A518F0BB9700C4652C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0982A618F0BB9700C4652C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A0982AE18F0BB9700C4652C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0982AF18F0BB9700C4652C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A0982C918F0BB9700C4652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A0982CA18F0BB9700C4652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0982CC18F0BB9700C4652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServalDNAExample/ServalDNAExample-Prefix.pch";
+				INFOPLIST_FILE = "ServalDNAExample/ServalDNAExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A0982CD18F0BB9700C4652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServalDNAExample/ServalDNAExample-Prefix.pch";
+				INFOPLIST_FILE = "ServalDNAExample/ServalDNAExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A09829418F0BB9700C4652C /* Build configuration list for PBXProject "ServalDNAExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0982C918F0BB9700C4652C /* Debug */,
+				1A0982CA18F0BB9700C4652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0982CB18F0BB9700C4652C /* Build configuration list for PBXNativeTarget "ServalDNAExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0982CC18F0BB9700C4652C /* Debug */,
+				1A0982CD18F0BB9700C4652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A09829118F0BB9700C4652C /* Project object */;
+}
