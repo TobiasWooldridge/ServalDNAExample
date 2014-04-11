@@ -7,6 +7,7 @@
 //
 
 #import "SPViewController.h"
+#import "serval.h"
 
 @interface SPViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+	int pid = server();
 }
 
 - (void)didReceiveMemoryWarning

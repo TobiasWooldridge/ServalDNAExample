@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A09829D18F0BB9700C4652C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A09829C18F0BB9700C4652C /* Foundation.framework */; };
-		1A09829F18F0BB9700C4652C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A09829E18F0BB9700C4652C /* CoreGraphics.framework */; };
-		1A0982A118F0BB9700C4652C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0982A018F0BB9700C4652C /* UIKit.framework */; };
 		1A0982A718F0BB9700C4652C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0982A518F0BB9700C4652C /* InfoPlist.strings */; };
 		1A0982A918F0BB9700C4652C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0982A818F0BB9700C4652C /* main.m */; };
 		1A0982AD18F0BB9700C4652C /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0982AC18F0BB9700C4652C /* SPAppDelegate.m */; };
@@ -31,9 +28,6 @@
 
 /* Begin PBXFileReference section */
 		1A09829918F0BB9700C4652C /* ServalDNAExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServalDNAExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A09829C18F0BB9700C4652C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1A09829E18F0BB9700C4652C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1A0982A018F0BB9700C4652C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A0982A418F0BB9700C4652C /* ServalDNAExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServalDNAExample-Info.plist"; sourceTree = "<group>"; };
 		1A0982A618F0BB9700C4652C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A0982A818F0BB9700C4652C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,9 +48,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A13A29F18F0BC9600A6233B /* libserval.a in Frameworks */,
-				1A09829F18F0BB9700C4652C /* CoreGraphics.framework in Frameworks */,
-				1A0982A118F0BB9700C4652C /* UIKit.framework in Frameworks */,
-				1A09829D18F0BB9700C4652C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,9 +76,6 @@
 			children = (
 				1A0982D118F0BC2700C4652C /* libserval.xcodeproj */,
 				1A13A29E18F0BC9600A6233B /* libserval.a */,
-				1A09829C18F0BB9700C4652C /* Foundation.framework */,
-				1A09829E18F0BB9700C4652C /* CoreGraphics.framework */,
-				1A0982A018F0BB9700C4652C /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
