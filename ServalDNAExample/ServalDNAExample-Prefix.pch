@@ -16,3 +16,9 @@
 #endif
 
 #import "confdefs.h"
+
+#if TARGET_IPHONE_SIMULATOR
+#define SERVAL_ROOT @"/tmp/servald"
+#else
+#define SERVAL_ROOT @"/Library/servald"
+#endif
