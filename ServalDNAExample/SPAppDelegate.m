@@ -7,15 +7,74 @@
 //
 
 #import "SPAppDelegate.h"
+#import "serval.h"
 
 @implementation SPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+
+	// Create the folders that Serval needs
+	[self setupServal];
+
+	// install configuration file.
+
+	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+		server();
+	});
+
+
+	return YES;
 }
-							
+
+- (void)setupServal
+{
+	NSError *error;
+	NSFileManager *fm = [NSFileManager defaultManager];
+
+	// This avoids a first-run bug where the sockets are created before the folder are in place
+	NSArray *servalFolders = @[
+														 [NSString stringWithFormat:@"%@/var/run/serval/proc", SERVAL_ROOT],
+														 [NSString stringWithFormat:@"%@/etc/serval", SERVAL_ROOT]
+														];
+
+	for (NSString *path in servalFolders) {
+
+		[fm createDirectoryAtPath:path
+	withIntermediateDirectories:YES
+									 attributes:nil
+												error:&error];
+
+		if (error) {
+			NSLog(@"Error occured making %@: %@", path, error.localizedDescription);
+		}
+
+	}
+
+	// copy the configuration file into place
+	NSString *confPath = [[NSBundle mainBundle] pathForResource:@"serval" ofType:@"conf" inDirectory:nil];
+	NSString *etcPath = [NSString stringWithFormat:@"%@/etc/serval/serval.conf", SERVAL_ROOT];
+
+	if (![fm copyItemAtPath:confPath toPath:etcPath error:&error]) {
+		NSLog(@"Error occured copying config file %@ to %@: %@", confPath, etcPath, error);
+	}
+
+}
+
+
+- (BOOL)addSkipBackupAttributeToItemAtURL:(NSURL *)URL
+{
+	assert([[NSFileManager defaultManager] fileExistsAtPath: [URL path]]);
+
+	NSError *error = nil;
+	BOOL success = [URL setResourceValue: [NSNumber numberWithBool: YES]
+																forKey: NSURLIsExcludedFromBackupKey error: &error];
+	if(!success){
+		NSLog(@"Error excluding %@ from backup %@", [URL lastPathComponent], error);
+	}
+	return success;
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
 	// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
