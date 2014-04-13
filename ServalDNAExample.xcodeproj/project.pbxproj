@@ -14,6 +14,7 @@
 		1A0982B318F0BB9700C4652C /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0982B218F0BB9700C4652C /* SPViewController.m */; };
 		1A0982B518F0BB9700C4652C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0982B418F0BB9700C4652C /* Images.xcassets */; };
 		1A13A29F18F0BC9600A6233B /* libserval.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A13A29E18F0BC9600A6233B /* libserval.a */; };
+		1A64134718FA481D00A769B2 /* serval.conf in Resources */ = {isa = PBXBuildFile; fileRef = 1A64134618FA481D00A769B2 /* serval.conf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		1A0982B418F0BB9700C4652C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A0982D118F0BC2700C4652C /* libserval.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libserval.xcodeproj; path = "serval-dna/ios/libserval.xcodeproj"; sourceTree = "<group>"; };
 		1A13A29E18F0BC9600A6233B /* libserval.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libserval.a; path = "serval-dna/build/libserval.a"; sourceTree = "<group>"; };
+		1A64134618FA481D00A769B2 /* serval.conf */ = {isa = PBXFileReference; lastKnownFileType = text; name = serval.conf; path = "serval-dna/ios/serval.conf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1A0982A318F0BB9700C4652C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A64134618FA481D00A769B2 /* serval.conf */,
 				1A0982A418F0BB9700C4652C /* ServalDNAExample-Info.plist */,
 				1A0982A518F0BB9700C4652C /* InfoPlist.strings */,
 				1A0982A818F0BB9700C4652C /* main.m */,
@@ -172,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A64134718FA481D00A769B2 /* serval.conf in Resources */,
 				1A0982B518F0BB9700C4652C /* Images.xcassets in Resources */,
 				1A0982A718F0BB9700C4652C /* InfoPlist.strings in Resources */,
 				1A0982B018F0BB9700C4652C /* Main.storyboard in Resources */,
