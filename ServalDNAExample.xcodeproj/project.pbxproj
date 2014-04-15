@@ -13,17 +13,24 @@
 		1A0982B018F0BB9700C4652C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0982AE18F0BB9700C4652C /* Main.storyboard */; };
 		1A0982B318F0BB9700C4652C /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0982B218F0BB9700C4652C /* SPViewController.m */; };
 		1A0982B518F0BB9700C4652C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0982B418F0BB9700C4652C /* Images.xcassets */; };
-		1A13A29F18F0BC9600A6233B /* libserval.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A13A29E18F0BC9600A6233B /* libserval.a */; };
 		1A64134718FA481D00A769B2 /* serval.conf in Resources */ = {isa = PBXBuildFile; fileRef = 1A64134618FA481D00A769B2 /* serval.conf */; };
+		1A64186218FCDF3400A769B2 /* libserval.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A64186118FCDF2200A769B2 /* libserval.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A13A29B18F0BC4300A6233B /* PBXContainerItemProxy */ = {
+		1A64185D18FCDF2200A769B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1A0982D118F0BC2700C4652C /* libserval.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A5334B818F087B500C7BD93;
-			remoteInfo = libserval;
+			remoteGlobalIDString = 1A64160B18FADE6500A769B2;
+			remoteInfo = serval;
+		};
+		1A64186018FCDF2200A769B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0982D118F0BC2700C4652C /* libserval.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A64160C18FADE6500A769B2;
+			remoteInfo = serval;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,7 +47,6 @@
 		1A0982B218F0BB9700C4652C /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
 		1A0982B418F0BB9700C4652C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A0982D118F0BC2700C4652C /* libserval.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libserval.xcodeproj; path = "serval-dna/ios/libserval.xcodeproj"; sourceTree = "<group>"; };
-		1A13A29E18F0BC9600A6233B /* libserval.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libserval.a; path = "serval-dna/build/libserval.a"; sourceTree = "<group>"; };
 		1A64134618FA481D00A769B2 /* serval.conf */ = {isa = PBXFileReference; lastKnownFileType = text; name = serval.conf; path = "serval-dna/ios/serval.conf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -49,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A13A29F18F0BC9600A6233B /* libserval.a in Frameworks */,
+				1A64186218FCDF3400A769B2 /* libserval.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				1A0982D118F0BC2700C4652C /* libserval.xcodeproj */,
-				1A13A29E18F0BC9600A6233B /* libserval.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 		1A0982D218F0BC2700C4652C /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				1A64186118FCDF2200A769B2 /* libserval.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,7 +135,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1A13A29C18F0BC4300A6233B /* PBXTargetDependency */,
+				1A64185E18FCDF2200A769B2 /* PBXTargetDependency */,
 			);
 			name = ServalDNAExample;
 			productName = ServalDNAExample;
@@ -170,6 +176,16 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		1A64186118FCDF2200A769B2 /* libserval.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libserval.a;
+			remoteRef = 1A64186018FCDF2200A769B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		1A09829718F0BB9700C4652C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -198,10 +214,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A13A29C18F0BC4300A6233B /* PBXTargetDependency */ = {
+		1A64185E18FCDF2200A769B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = libserval;
-			targetProxy = 1A13A29B18F0BC4300A6233B /* PBXContainerItemProxy */;
+			name = serval;
+			targetProxy = 1A64185D18FCDF2200A769B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -246,10 +262,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -302,10 +314,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServalDNAExample/ServalDNAExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/serval-dna/build/include",
+					"$(SRCROOT)/serval-dna",
+					"$(SRCROOT)/serval-dna/ios",
 				);
 				INFOPLIST_FILE = "ServalDNAExample/ServalDNAExample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -327,7 +341,8 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/serval-dna/build/include",
+					"$(SRCROOT)/serval-dna",
+					"$(SRCROOT)/serval-dna/ios",
 				);
 				INFOPLIST_FILE = "ServalDNAExample/ServalDNAExample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
