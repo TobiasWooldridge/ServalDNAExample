@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8685E7A7-405C-49B2-A159-08A656C79CEF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ServalDNAExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>24A00E4F-A06C-4ABA-B0F9-F33BE14821C6</key>
+		<string>ssh://github.com/servalproject/ServalDNAExample.git</string>
+		<key>B6CB1DEC-C98A-438E-8F49-724436D5080F</key>
+		<string>ssh://github.com/servalproject/serval-dna.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ServalDNAExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>24A00E4F-A06C-4ABA-B0F9-F33BE14821C6</key>
+		<string>../..</string>
+		<key>B6CB1DEC-C98A-438E-8F49-724436D5080F</key>
+		<string>../../serval-dna</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/servalproject/ServalDNAExample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>24A00E4F-A06C-4ABA-B0F9-F33BE14821C6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B6CB1DEC-C98A-438E-8F49-724436D5080F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>serval-dna</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24A00E4F-A06C-4ABA-B0F9-F33BE14821C6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ServalDNAExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
